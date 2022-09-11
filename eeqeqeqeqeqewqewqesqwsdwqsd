@@ -1,0 +1,313 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Thefunny = Instance.new("ScreenGui")
+local Open = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local Nothing = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local MenuButton = Instance.new("ImageButton")
+local Pattern = Instance.new("ImageLabel")
+local Pattern_2 = Instance.new("ImageLabel")
+local Pattern_3 = Instance.new("ImageLabel")
+local Pattern_4 = Instance.new("ImageLabel")
+local Pattern_5 = Instance.new("ImageLabel")
+local Pattern_6 = Instance.new("ImageLabel")
+local Pattern_7 = Instance.new("ImageLabel")
+local Pattern_8 = Instance.new("ImageLabel")
+local Menu = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local close = Instance.new("ImageButton")
+local Exit = Instance.new("TextButton")
+local Morecominginthefuture = Instance.new("TextLabel")
+local Devmessage = Instance.new("TextLabel")
+local Main_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Yeild = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local Run = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+
+--Properties:
+
+local Core = game:GetService("CoreGUI")
+
+Thefunny.Name = "Thefunny"
+Thefunny.Parent = Core
+Thefunny.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Open.Name = "Open"
+Open.Parent = Thefunny
+Open.BackgroundColor3 = Color3.fromRGB(81, 81, 81)
+Open.Position = UDim2.new(0.863574326, 0, 0.945674062, 0)
+Open.Size = UDim2.new(0, 100, 0, 27)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Rail Script V3"
+Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextSize = 14.000
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = Open
+
+Main.Name = "Main"
+Main.Parent = Thefunny
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(13, 141, 11)
+Main.Position = UDim2.new(0.727148771, 0, 0, 0)
+Main.Selectable = true
+Main.Size = UDim2.new(0, 200, 0, 300)
+
+Nothing.Name = "Nothing"
+Nothing.Parent = Main
+Nothing.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nothing.BackgroundTransparency = 1.000
+Nothing.Position = UDim2.new(0.5, 0, 0, 0)
+Nothing.Size = UDim2.new(0, 100, 0, 15)
+Nothing.Font = Enum.Font.LuckiestGuy
+Nothing.LineHeight = 0.500
+Nothing.Text = "Rail Script V3"
+Nothing.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nothing.TextScaled = true
+Nothing.TextSize = 14.000
+Nothing.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+Nothing.TextStrokeTransparency = 0.000
+Nothing.TextWrapped = true
+
+UICorner_2.Parent = Main
+
+MenuButton.Name = "MenuButton"
+MenuButton.Parent = Main
+MenuButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MenuButton.BackgroundTransparency = 1.000
+MenuButton.Size = UDim2.new(0, 25, 0, 25)
+MenuButton.Image = "rbxassetid://1312007357"
+MenuButton.MouseButton1Click:Connect(function()
+	Menu.Visible = true
+end)
+
+Pattern.Name = "Pattern"
+Pattern.Parent = Main
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Size = UDim2.new(0, 100, 0, 300)
+Pattern.ZIndex = 9
+Pattern.Image = "rbxassetid://2151782136"
+Pattern.ImageColor3 = Color3.fromRGB(0, 255, 0)
+Pattern.ImageTransparency = 0.900
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 30, 0, 50)
+
+Pattern_2.Name = "Pattern"
+Pattern_2.Parent = Main
+Pattern_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern_2.BackgroundTransparency = 1.000
+Pattern_2.Position = UDim2.new(-0.00372253428, 0, 0.00333333341, 0)
+Pattern_2.Size = UDim2.new(0, 100, 0, 299)
+Pattern_2.ZIndex = 9
+Pattern_2.Image = "rbxassetid://2151782136"
+Pattern_2.ImageColor3 = Color3.fromRGB(0, 255, 0)
+Pattern_2.ImageTransparency = 1.000
+Pattern_2.ScaleType = Enum.ScaleType.Tile
+Pattern_2.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_2.TileSize = UDim2.new(0, 30, 0, 50)
+
+Pattern_3.Name = "Pattern"
+Pattern_3.Parent = Main
+Pattern_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern_3.BackgroundTransparency = 1.000
+Pattern_3.Position = UDim2.new(-0.00372253428, 0, 0.00333333341, 0)
+Pattern_3.Size = UDim2.new(0, 100, 0, 299)
+Pattern_3.ZIndex = 9
+Pattern_3.Image = "rbxassetid://2151782136"
+Pattern_3.ImageColor3 = Color3.fromRGB(0, 255, 0)
+Pattern_3.ImageTransparency = 1.000
+Pattern_3.ScaleType = Enum.ScaleType.Tile
+Pattern_3.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_3.TileSize = UDim2.new(0, 30, 0, 50)
+
+Pattern_4.Name = "Pattern"
+Pattern_4.Parent = Main
+Pattern_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern_4.BackgroundTransparency = 1.000
+Pattern_4.Position = UDim2.new(-0.00372253428, 0, 0.00333333341, 0)
+Pattern_4.Size = UDim2.new(0, 100, 0, 299)
+Pattern_4.ZIndex = 9
+Pattern_4.Image = "rbxassetid://2151782136"
+Pattern_4.ImageColor3 = Color3.fromRGB(0, 255, 0)
+Pattern_4.ImageTransparency = 1.000
+Pattern_4.ScaleType = Enum.ScaleType.Tile
+Pattern_4.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_4.TileSize = UDim2.new(0, 30, 0, 50)
+
+Pattern_5.Name = "Pattern"
+Pattern_5.Parent = Main
+Pattern_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern_5.BackgroundTransparency = 1.000
+Pattern_5.Position = UDim2.new(0.5, 0, 0, 0)
+Pattern_5.Size = UDim2.new(0, 100, 0, 299)
+Pattern_5.ZIndex = 9
+Pattern_5.Image = "rbxassetid://2151782136"
+Pattern_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Pattern_5.ImageTransparency = 1.000
+Pattern_5.ScaleType = Enum.ScaleType.Tile
+Pattern_5.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_5.TileSize = UDim2.new(0, 30, 0, 50)
+
+Pattern_6.Name = "Pattern"
+Pattern_6.Parent = Main
+Pattern_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern_6.BackgroundTransparency = 1.000
+Pattern_6.Position = UDim2.new(0.496277452, 0, 0, 0)
+Pattern_6.Size = UDim2.new(0, 100, 0, 299)
+Pattern_6.ZIndex = 9
+Pattern_6.Image = "rbxassetid://2151782136"
+Pattern_6.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Pattern_6.ImageTransparency = 0.900
+Pattern_6.ScaleType = Enum.ScaleType.Tile
+Pattern_6.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_6.TileSize = UDim2.new(0, 30, 0, 50)
+
+Pattern_7.Name = "Pattern"
+Pattern_7.Parent = Main
+Pattern_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern_7.BackgroundTransparency = 1.000
+Pattern_7.Position = UDim2.new(0.496277452, 0, 0, 0)
+Pattern_7.Size = UDim2.new(0, 100, 0, 299)
+Pattern_7.ZIndex = 9
+Pattern_7.Image = "rbxassetid://2151782136"
+Pattern_7.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Pattern_7.ImageTransparency = 1.000
+Pattern_7.ScaleType = Enum.ScaleType.Tile
+Pattern_7.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_7.TileSize = UDim2.new(0, 30, 0, 50)
+
+Pattern_8.Name = "Pattern"
+Pattern_8.Parent = Main
+Pattern_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern_8.BackgroundTransparency = 1.000
+Pattern_8.Position = UDim2.new(0.496277452, 0, 0.166666672, 0)
+Pattern_8.Size = UDim2.new(0, 100, 0, 249)
+Pattern_8.ZIndex = 9
+Pattern_8.Image = "rbxassetid://2151782136"
+Pattern_8.ImageColor3 = Color3.fromRGB(0, 0, 0)
+Pattern_8.ImageTransparency = 0.900
+Pattern_8.ScaleType = Enum.ScaleType.Tile
+Pattern_8.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern_8.TileSize = UDim2.new(0, 30, 0, 50)
+
+Menu.Name = "Menu"
+Menu.Parent = Main
+Menu.Active = true
+Menu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Menu.Size = UDim2.new(0, 100, 0, 300)
+
+UICorner_3.Parent = Menu
+
+close.Name = "close"
+close.Parent = Menu
+close.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+close.BackgroundTransparency = 1.000
+close.LayoutOrder = 5
+close.Position = UDim2.new(1.73000002, 0, 0.0499999747, 0)
+close.Size = UDim2.new(0, 25, 0, 25)
+close.ZIndex = 2
+close.Image = "rbxassetid://3926305904"
+close.ImageColor3 = Color3.fromRGB(255, 0, 4)
+close.ImageRectOffset = Vector2.new(284, 4)
+close.ImageRectSize = Vector2.new(24, 24)
+
+Exit.Name = "Exit"
+Exit.Parent = close
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.BackgroundTransparency = 1.000
+Exit.Position = UDim2.new(0, 0, 3.05175774e-07, 0)
+Exit.Size = UDim2.new(0, 25, 0, 24)
+Exit.Font = Enum.Font.SourceSans
+Exit.Text = ""
+Exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exit.TextSize = 14.000
+Exit.MouseButton1Click:Connect(function()
+	Menu.Visible = false
+end)
+
+Morecominginthefuture.Name = "More coming in the future!"
+Morecominginthefuture.Parent = Menu
+Morecominginthefuture.Active = true
+Morecominginthefuture.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Morecominginthefuture.BackgroundTransparency = 2.000
+Morecominginthefuture.Position = UDim2.new(0, 0, 0.25666666, 0)
+Morecominginthefuture.Size = UDim2.new(0, 100, 0, 106)
+Morecominginthefuture.Font = Enum.Font.LuckiestGuy
+Morecominginthefuture.Text = "More coming in the future!"
+Morecominginthefuture.TextColor3 = Color3.fromRGB(0, 0, 0)
+Morecominginthefuture.TextScaled = true
+Morecominginthefuture.TextSize = 14.000
+Morecominginthefuture.TextStrokeColor3 = Color3.fromRGB(46, 255, 0)
+Morecominginthefuture.TextStrokeTransparency = 0.000
+Morecominginthefuture.TextWrapped = true
+
+Devmessage.Name = "Dev message"
+Devmessage.Parent = Menu
+Devmessage.Active = true
+Devmessage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Devmessage.BackgroundTransparency = 2.000
+Devmessage.Position = UDim2.new(1, 0, 0.25666666, 0)
+Devmessage.Size = UDim2.new(0, 99, 0, 106)
+Devmessage.Font = Enum.Font.LuckiestGuy
+Devmessage.Text = "This script hub was developed by Canaada1234 and Avid237"
+Devmessage.TextColor3 = Color3.fromRGB(0, 0, 0)
+Devmessage.TextScaled = true
+Devmessage.TextSize = 14.000
+Devmessage.TextStrokeColor3 = Color3.fromRGB(46, 255, 0)
+Devmessage.TextStrokeTransparency = 0.000
+Devmessage.TextWrapped = true
+
+Main_2.Name = "Main"
+Main_2.Parent = Menu
+Main_2.BackgroundColor3 = Color3.fromRGB(64, 179, 32)
+Main_2.Position = UDim2.new(0, 0, 0.0500000007, 0)
+Main_2.Size = UDim2.new(0, 87, 0, 25)
+Main_2.Font = Enum.Font.LuckiestGuy
+Main_2.Text = "Main Scripts"
+Main_2.TextColor3 = Color3.fromRGB(101, 255, 6)
+Main_2.TextScaled = true
+Main_2.TextSize = 18.000
+Main_2.TextStrokeTransparency = 0.000
+Main_2.TextWrapped = true
+Main_2.MouseButton1Click:Connect(function()
+	Yeild.Visible = true
+end)
+
+UICorner_4.Parent = Main_2
+
+Yeild.Name = "Yeild"
+Yeild.Parent = Main
+Yeild.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Yeild.Position = UDim2.new(-0.00499999989, 0, 0.166666672, 0)
+Yeild.Size = UDim2.new(0, 100, 0, 60)
+Yeild.Visible = false
+Yeild.ZIndex = 100
+Yeild.Image = "http://www.roblox.com/asset/?id=10636418350"
+
+UICorner_5.Parent = Yeild
+
+Run.Name = "Run"
+Run.Parent = Yeild
+Run.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Run.Position = UDim2.new(0.644999981, 0, 1, 0)
+Run.Size = UDim2.new(0, 35, 0, 20)
+Run.ZIndex = 100
+Run.Font = Enum.Font.SourceSans
+Run.Text = "> Run"
+Run.TextColor3 = Color3.fromRGB(255, 255, 255)
+Run.TextSize = 14.000
+
+UICorner_6.Parent = Run
+
+Run.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
